@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Página Sobre React Responsiva 💻📱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto React de uma página responsiva, desenvolvido para mostrar minhas habilidades de desenvolvimento web e design responsivo.
 
-## Available Scripts
+## Descrição do Projeto
 
-In the project directory, you can run:
+Esta página apresenta informações sobre mim, incluindo minha biografia, habilidades, experiência profissional, projetos anteriores e formas de contato. O layout da página é responsivo e foi projetado para oferecer uma experiência de usuário consistente em diferentes dispositivos, incluindo web, tablet e celular.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Biografia**: Apresenta uma breve descrição sobre mim e minha trajetória.
+- **Habilidades**: Lista minhas habilidades e competências.
+- **Experiência Profissional**: Detalha minha experiência profissional e projetos anteriores.
+- **Portfólio**: Exibe alguns dos projetos em que trabalhei.
+- **Contato**: Fornece formas de entrar em contato comigo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- React: Biblioteca JavaScript para a construção de interfaces de usuário.
+- CSS: Utilizado para estilizar os elementos da página e torná-la visualmente atraente.
+- React Router: Biblioteca para roteamento de páginas no React, utilizada para navegação entre as seções da página.
+- Media Queries: Utilizadas para criar um design responsivo que se adapta a diferentes tamanhos de tela.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto
 
-### `npm run build`
+1. Clone este repositório para o seu ambiente local.
+2. Navegue até o diretório do projeto no terminal.
+3. Execute o comando `npm install` para instalar as dependências do projeto.
+4. Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
+5. Abra o navegador e acesse `http://localhost:3000` para visualizar a página.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Autor Saul Vargas 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contate-me ou Siga-me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saul-vargas-68a97347/) 
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@saulvargas88/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saulvargas88)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/551985027412)
+[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](mailto:saulvargascosta@hotmail.com)
