@@ -29,6 +29,10 @@ Esta página apresenta informações sobre mim, incluindo minha biografia, habil
 4. Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
 5. Abra o navegador e acesse `http://localhost:3000` para visualizar a página.
 
+## Acessando pelo Deploy do projeto via Vercel
+
+Acesse: [https://layoutresponsivo-eight.vercel.app/](https://layoutresponsivo-eight.vercel.app/)
+
 ## Autor Saul Vargas 
 
 ## Contate-me ou Siga-me
