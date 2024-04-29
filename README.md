@@ -20,6 +20,7 @@ Esta página apresenta informações sobre mim, incluindo minha biografia, habil
 - CSS: Utilizado para estilizar os elementos da página e torná-la visualmente atraente.
 - React Router: Biblioteca para roteamento de páginas no React, utilizada para navegação entre as seções da página.
 - Media Queries: Utilizadas para criar um design responsivo que se adapta a diferentes tamanhos de tela.
+- Deploy do Projeto na plataforma Versel e vinculado ao GitHub do Desenvolvedor
 
 ## Como Executar o Projeto
 
