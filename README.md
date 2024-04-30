@@ -20,6 +20,7 @@ Esta página apresenta informações sobre mim, incluindo minha biografia, habil
 - CSS: Utilizado para estilizar os elementos da página e torná-la visualmente atraente.
 - React Router: Biblioteca para roteamento de páginas no React, utilizada para navegação entre as seções da página.
 - Media Queries: Utilizadas para criar um design responsivo que se adapta a diferentes tamanhos de tela.
+- Deploy do Projeto na plataforma Versel e vinculado ao GitHub do Desenvolvedor
 
 ## Como Executar o Projeto
 
@@ -28,6 +29,10 @@ Esta página apresenta informações sobre mim, incluindo minha biografia, habil
 3. Execute o comando `npm install` para instalar as dependências do projeto.
 4. Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
 5. Abra o navegador e acesse `http://localhost:3000` para visualizar a página.
+
+## Acessando pelo Deploy do projeto via Vercel
+
+Acesse: [https://layoutresponsivo-eight.vercel.app/](https://layoutresponsivo-eight.vercel.app/)
 
 ## Autor Saul Vargas 
 
