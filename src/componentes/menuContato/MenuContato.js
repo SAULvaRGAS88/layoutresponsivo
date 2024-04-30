@@ -69,6 +69,7 @@ export default function BasicMenu() {
         </MenuItem>
 
         <MenuItem
+          id="githubMenuItem"
           onClick={() => handleDirecionaMidiaSocial('https://github.com/SAULvaRGAS88')}>
           GitHub
           <GitHubIcon
