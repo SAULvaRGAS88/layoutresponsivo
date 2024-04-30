@@ -1,3 +1,24 @@
+/* Quando a largura da tela for maior que 1025px, aplique essas regras */
+@media screen and (min-width: 1441px) {
+    .MenuMidiaSocial {
+        padding-left: 60px;
+    }
+}
+
+/* Quando a largura da tela for entre 1024px e 1440px, aplique essas regras */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .MenuMidiaSocial {
+        padding-left: 60px;
+    }
+}
+
+/* Quando a largura da tela for entre 1024px e 768px, aplique essas regras */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .MenuMidiaSocial {
+        padding-left: 40px;
+    }
+}
+
 /* Quando a largura da tela for entre 0px e 767px, aplique essas regras */
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .MenuMidiaSocial {
