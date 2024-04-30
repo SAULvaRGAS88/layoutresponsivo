@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
+import './MenuContato.css'
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -28,7 +29,7 @@ export default function BasicMenu() {
   };
 
   return (
-    <div>
+    <div className='MenuMidiaSocial'>
 
       <Button
         id="basic-button"
@@ -40,7 +41,8 @@ export default function BasicMenu() {
           backgroundColor: 'white',
           marginLeft: 7,
           boxShadow: '5px 5px 5px 5px rgba(255, 255, 255, 0.5)',
-          fontWeight: 'bold'
+          fontWeight: 'bold',
+          margin:0
         }}
       >
         <p style={{ textTransform: 'none', color: 'grey' }}>

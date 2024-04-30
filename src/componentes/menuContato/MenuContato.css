@@ -1,0 +1,8 @@
+/* Quando a largura da tela for entre 0px e 767px, aplique essas regras */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .MenuMidiaSocial {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
