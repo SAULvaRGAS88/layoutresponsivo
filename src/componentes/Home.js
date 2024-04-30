@@ -1,5 +1,6 @@
 import '../componentes/Home.css';
 import fotoPerfil from '../assents/FotoPerfil.png';
+import MenuContato from '../componentes/menuContato/MenuContato'
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
             <p className="titleTopTextDev">Desenvolvedor</p>
           </div>
         </div>
+        <MenuContato/>
       </div>
     </div>
   );
