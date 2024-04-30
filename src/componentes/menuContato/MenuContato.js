@@ -74,7 +74,7 @@ export default function BasicMenu() {
         </MenuItem>
 
         <MenuItem
-          onClick={() => handleDirecionaMidiaSocial('https://wa.me/551985027412')}>
+          onClick={() => handleDirecionaMidiaSocial('https://wa.me/5551985027412')}>
           WhatssApp
           <WhatsAppIcon
             sx={{ color: '#25D366', marginLeft: 1 }} />
