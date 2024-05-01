@@ -1,6 +1,7 @@
 import '../componentes/Home.css';
 import fotoPerfil from '../assents/FotoPerfil.png';
 import MenuContato from '../componentes/menuContato/MenuContato'
+import { MenuModal } from './menuModal/MenuModal';
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
           </div>
         </div>
         <MenuContato/>
+        <MenuModal/>
       </div>
     </div>
   );

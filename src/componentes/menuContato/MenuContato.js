@@ -1,4 +1,4 @@
-import * as React from 'react';
+import { React, useState } from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -9,11 +9,14 @@ import EmailIcon from '@mui/icons-material/Email';
 import './MenuContato.css'
 
 export default function BasicMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
+
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
+
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -38,17 +41,16 @@ export default function BasicMenu() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
         sx={{
-          backgroundColor: 'white',
+          backgroundColor: 'transparent',
           marginLeft: 7,
           boxShadow: '5px 5px 5px 5px rgba(255, 255, 255, 0.5)',
           fontWeight: 'bold',
-          margin:0
+          margin: 0
         }}
       >
-        <p style={{ textTransform: 'none', color: 'grey' }}>
+        <p style={{ textTransform: 'none', color: 'white' }}>
           Faça Contato
         </p>
-
       </Button>
 
       <Menu
@@ -85,7 +87,8 @@ export default function BasicMenu() {
 
         <MenuItem onClick={handleEnviarEmail}>
           Email
-          <EmailIcon sx={{ color: 'grey', marginLeft: 1 }} />
+          <EmailIcon
+            sx={{ color: 'grey', marginLeft: 1 }} />
         </MenuItem>
       </Menu>
 

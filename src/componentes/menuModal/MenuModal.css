@@ -1,0 +1,181 @@
+/* Quando a largura da tela for maior que 1025px, aplique essas regras */
+@media screen and (min-width: 1441px) {
+    .divModal {
+        padding-left: 60px;
+        margin-top: 20px;
+    }
+
+    .modalContent {
+        background-color: 'white';
+
+    }
+
+    .modalContent {
+        background-color: white;
+        border: 1px solid #000;
+        padding: 20px;
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+    }
+
+    .MuiBackdrop-root {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .divBox {
+        width: auto;
+        display: flex;
+        padding: 15px;
+        overflow: hidden;
+        justify-content:space-between ;
+    }
+
+    .divBtnFechar{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+/* Quando a largura da tela for entre 1024px e 1440px, aplique essas regras */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .divModal {
+        padding-left: 60px;
+        margin-top: 20px;
+    }
+
+    .modalContent {
+        background-color: 'white';
+
+    }
+
+    .modalContent {
+        background-color: white;
+        border: 1px solid #000;
+        padding: 20px;
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+    }
+
+    .MuiBackdrop-root {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .divBox {
+        width: auto;
+        display: flex;
+        padding: 15px;
+        overflow: hidden;
+        justify-content:space-between ;
+    }
+
+    .divBtnFechar{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+/* Quando a largura da tela for entre 1024px e 768px, aplique essas regras */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .divModal {
+        padding-left: 40px;
+        margin-top: 20px;
+    }
+
+    .modalContent {
+        background-color: 'white';
+
+    }
+
+    .modalContent {
+        background-color: white;
+        border: 1px solid #000;
+        padding: 20px;
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+    }
+
+    .MuiBackdrop-root {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .divBox {
+        width: auto;
+        display: flex;
+        padding: 15px;
+        overflow: hidden;
+        justify-content:space-between ;
+    }
+
+    .divBtnFechar{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+/* Quando a largura da tela for entre 0px e 767px, aplique essas regras */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .divModal {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .modalContent {
+        background-color: 'white';
+
+    }
+
+    .modalContent {
+        background-color: white;
+        border: 1px solid #000;
+        padding: 20px;
+        width: 'auto';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+    }
+
+    .MuiBackdrop-root {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .divBox {
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; 
+        padding: 15px;
+        overflow: hidden;
+        justify-items: center;
+    }
+
+    .divBtnFechar{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    
+}
